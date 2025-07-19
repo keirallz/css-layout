@@ -1,0 +1,73 @@
+/* basic layout styling */
+body {
+  font-family: Georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header styling */
+header {
+  background-color: #f2ecda;
+  color: #6896a3;
+  padding: 20px;
+  text-align: center;
+  line-height: 0px;
+}
+
+/* main container with margin */
+.container {
+  margin: 20px;
+}
+
+p {
+color: #72a1ad;
+}
+
+h2 {
+color:#9e8864;
+}
+
+/* floating image with padding, border, margin */
+.float-left {
+  float: left;
+  margin-right: 15px;
+  border: 2px solid #333;
+  padding: 5px;
+}
+
+/* clearfix to contain floated elements */
+.text-box::after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom; 10px;
+}
+
+/* flexbox section */
+.flex-section {
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.flex-item {
+  background-color: #72a1ad;
+  color: #f2ecda;
+  padding: 20px;
+  border: 1px solid #999;
+  flex: 1;
+  text-align: center;
+}
+
+/* footer styling */
+footer {
+  background-color: #C1E3E0;
+  color: #6896a3;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
